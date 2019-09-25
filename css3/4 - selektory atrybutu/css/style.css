@@ -1,0 +1,34 @@
+[title] {
+    color:blueviolet;
+}
+
+[title="About me"] {
+    color: beige;
+}
+
+[title~="Container"] {
+    background-color: yellow;
+}
+
+[title*="tion"] {
+    background-color: fuchsia;
+}
+
+[title^="More"] {
+    text-transform: uppercase;
+}
+
+
+[title$="skills"] {
+    color: whitesmoke;
+}
+
+[title]:last-child{
+    background-color: lightpink;
+}
+
+nav > ul > li > a[title] {
+    background-color: chartreuse;
+}
+
+!impo

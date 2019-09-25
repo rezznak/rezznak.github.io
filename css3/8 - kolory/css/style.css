@@ -1,0 +1,25 @@
+div {
+    height: 300px;
+    width: 300px;
+}
+
+
+#predefined-colors {
+    background-color: lightsalmon;
+}
+
+#hexadecimal-colors{
+    background-color: #33aaff;
+}
+
+#short-hexadecimal-colors {
+    background-color: #333;
+}
+
+#rgb-function {
+    background-color: rgb(250, 127, 43);
+}
+
+#rgba-function{
+    background-color: rgba(92, 50 ,141, 0.15);
+}

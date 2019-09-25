@@ -1,0 +1,34 @@
+form{
+    background-color: #213b50;
+    padding: 20px;
+    color: #ffffff;
+    width: 500px;
+    height: 650px;
+}
+
+
+
+form label {
+    display: block;
+    margin: 5px;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+    width: 300px;
+    background-color: #2b4a64;
+    color: #ffffff;
+    height: 25px;
+}
+
+form select:focus, form input:focus, form textarea:focus {
+    background-color: #4e708c;
+    border: 2px, white;
+}
+
+form input[type="submit"]{
+    background-color: limegreen;
+    color: #ffffff;
+    width: 50px;
+    height: 30px;
+    text-transform: uppercase;
+}

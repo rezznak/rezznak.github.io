@@ -1,0 +1,10 @@
+#pierwszy::before {
+    color: yellowgreen;
+    content: "to jest przed ";
+    font-family: serif;
+
+}
+#drugi::after {
+    color: darkblue;
+    content: "  to je po";
+}

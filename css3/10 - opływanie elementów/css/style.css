@@ -1,0 +1,12 @@
+#strawberry {
+    float: left;
+}
+
+#strawberry2 {
+    float: right;
+}
+
+p:last-child {
+    background-color: blue;
+    clear: both;
+}
