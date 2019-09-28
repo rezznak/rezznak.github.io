@@ -1,0 +1,55 @@
+.square1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.square2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.square3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.circle {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px/100px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#yc, #ys {
+    background-color: yellow;
+}
+#grs, #grc {
+    background-color: green;
+}
+#bls, #blc {
+    background-color: black;
+}
+#rs, #rc {
+    background-color: red;
+}
+#os, #oc {
+    background-color: orange;
+}
+#bc, #bs {
+    background-color: blue;
+}
+#pus, #puc {
+    background-color: purple;
+}
+#ps, #pc {
+    background-color: pink;
+}
+#grs, #grc {
+    background-color: gray;
+}

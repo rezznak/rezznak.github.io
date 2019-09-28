@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/marcin.malewicki@gmail.com" method="POST">
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="name" class="input">
+        <label for="lastname">Nazwisko</label>
+        <input type="text" name="lastname" id="lastname" class="input">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="input">
+        <label for="tel">Telefon</label>
+        <input type="tel" name="tel" id="tel" class="input">
+        <label for="town">Wybierz miasto</label>
+        <select name="town" id="town">
+            <option>Kraków</option>
+            <option>Warszawa</Option>
+            <option>Gdańsk</option>
+            <option>Poznań</option>
+        </select>
+        <p>Wybierz płeć:</p>
+        <div>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Mężczyzna</label>
+            <br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Kobieta</label>
+            <br>
+            <input type="radio" name="gender" value="none" id="none">
+            <label for="none">Nie chcę podawać</label>
+            <br>
+        </div>
+        <input type="checkbox" name="agreement" id="agreement" required>
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
+        <br>
+        <br>
+        <label for="textarea">Uwagi:</label>
+        <textarea name="textarea" id="textarea"></textarea>
+        <input type="submit" name="submit" id="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
