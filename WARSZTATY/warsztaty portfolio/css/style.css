@@ -1,0 +1,46 @@
+header {
+    background-image: url("../img/header.jpg")
+
+}
+nav {
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #f2f1ed;
+    height: 50px;
+    font-size: 50%;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+hr {
+    width: 10%;
+    background-color: #007bff;
+}
+.about {
+    width: 25em;
+    height: 25em;
+    border-radius: 25em;
+    border: 1px solid;
+    background-image: url("../img/about.jpg")
+}
+.portfolio {
+    background-color: #f2f1ed;
+    height: 400px;
+    width: 100%;
+}
