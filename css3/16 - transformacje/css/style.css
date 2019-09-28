@@ -1,0 +1,42 @@
+img {
+    margin-bottom: 100px;
+    transition: all, 2s;
+}
+
+.rotate img:hover {
+    transform: rotate(37deg)
+
+}
+.translate img:hover {
+    transform: translate(20px, 40px);
+}
+.scale img:hover {
+    transform: scale(1.4,1.4);
+    margin-left: 200px;
+}
+.animation img{
+    animation-name: scale;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale {
+    0% {
+        height: 150px;
+        margin-left: 200px;
+        top: 150px;
+    }
+    30% {
+        height: 250px;
+        margin-left: 300px;
+
+    }
+    60% {
+        height: 500px;
+        margin-left: 400px;
+
+    }
+    100% {
+        height: 50px;
+        margin-left: 200px;
+    }
+}

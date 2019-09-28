@@ -1,0 +1,36 @@
+#gallery {
+    width: 80%;
+}
+figure {
+    width: 33%;
+}
+/*duze ekrany*/
+@media screen and (min-width: 993px) {
+    #gallery {
+        width: 90%;
+    }
+}
+
+/* srednie */
+@media (min-width: 769px) and (max-width: 992px) {
+    figure {
+        width: 45%;
+        margin: 2%;
+    }
+}
+
+/* male */
+@media (min-width: 421px) and (max-width: 768px) {
+    figure {
+        width: 90%;
+    }
+}
+
+@media (max-width: 420px) {
+    #gallery {
+        width: 100%;
+    }
+    figure {
+        width: 100%;
+    }
+}

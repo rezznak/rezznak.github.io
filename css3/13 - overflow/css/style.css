@@ -26,3 +26,7 @@
     overflow: auto;
     color: green;
 }
+
+.scroll-touch {
+    -webkit-overflow-scrolling: touch; /* do scrollowania zawartości */
+}

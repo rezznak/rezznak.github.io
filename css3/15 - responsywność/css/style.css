@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+.box {
+    font-size: 15px;
+    width: 25%;
+    padding: 30px;
+    float: left;
+    font-family: sans-serif;
+    border: 10px solid yellow;
+}
+@media (max-width: 992px) {
+    .box {
+        width: 50%;
+        background-color: blueviolet;
+        color: white;
+        font-size: 12px;
+    }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+    .box {
+        width: 100%;
+        background-color: chartreuse;
+        color: red;
+        font-size: 10px;
+    }
+}

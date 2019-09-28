@@ -1,0 +1,18 @@
+.container {
+    
+    border: 1px dotted;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex-item {
+    background-color: tomato;
+    color:green;
+    padding: 10px;
+    border: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 10%;
+}
+.flex-item:nth-child(2n-1) {
+    background-color: yellowgreen;
+    flex-basis: 25%;
+}
