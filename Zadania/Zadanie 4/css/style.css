@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+header {
+    background-image: url('obrazy/man-1.jpg');
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+@media (min-width: 1171px) {
+    header {
+        background-image: url('obrazy/man-1.jpg');
+    }
+}
+@media (min-width: 993px) and (max-width: 1170px) {
+    header {
+        background-image: url('obrazy/man-2.jpg');
+    }
+}
+@media (min-width: 320px) and (max-width: 992px) {
+    header {
+        background-image: url('obrazy/man-1.jpg');
+    }
+
+}
