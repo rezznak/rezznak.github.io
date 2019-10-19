@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="pizza-order" method="POST">
+
+        <div>
+            <label for="imie">Imię</label>
+            <input type="text" name="imie" id="imie">
+            <label for="nazwisko">Nazwisko</label>
+            <input type="text" name="nazwisko" id="nazwisko">
+        </div>
+
+        <div>
+            <label for="ulica">Ulica</label>
+            <input type="text" name="ulica" id="ulica">
+            <label for="dom">Nr domu</label>
+            <input type="text" name="dom" id="dom">
+            /
+            <label for="mieszkanie">Nr mieszkania</label>
+            <input type="text" name="mieszkanie" id="mieszkanie">
+        </div>
+
+        <div>
+            <label for="kod">Kod pocztowy</label>
+            <input type="text" name="kod" id="kod">
+            <label for="miasto">Miasto</label>
+            <input type="text" name="miasto" id="miasto">
+        </div>
+
+        <label for="wybierz">Wybierz pizzę:</label>
+        <select name="Warszawa" id="wybierz">
+            <option value="0">-- Wybierz pizzę --</option>
+            <option value="1">Margaritha</option>
+            <option value="2">Pepperoni</option>
+            <option value="3">Hawajska</option>
+            <option value="4">Diabelska</option>
+            <option value="5">Wiejska</option>
+        </select>
+
+        <span id="cena">0 PLN</span>
+
+        <div>
+            <input type="checkbox" name="sos-pom" id="sos-pom" value="pomidorowy">
+            <label for="sos-pom">Sos pomidorowy</label>
+            <input type="checkbox" name="sos-czo" id="sos-czo" value="czosnkowy">
+            <label for="sos-czo">Sos czosnkowy</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="rodo" id="rodo">
+            <label for="rodo">Wyrażam zgodę na przetwarzanie danych</label>
+        </div>
+
+        <input type="submit" name="zamow" value="Zamów" id="zamow"/>
+
+        <ul id="blad"></ul>
+
+        <!-- <fieldset></fieldset> tworzy pole z ramką -->
+
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

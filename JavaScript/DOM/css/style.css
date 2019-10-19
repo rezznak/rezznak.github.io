@@ -1,0 +1,22 @@
+* {
+    scroll-behavior: smooth;
+}    
+body {
+    min-height: 400vh;
+    transition: all 600ms ease-in-out;
+}
+body.scroll {
+    background-color: cadetblue;
+}
+body.scroll2 {
+    background-color: rebeccapurple;
+}
+h1 {
+    transition: all 300ms ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 24px;
+    background-color: burlywood;
+    z-index: 2;
+}

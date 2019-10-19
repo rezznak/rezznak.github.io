@@ -9,9 +9,9 @@ body {
     padding: 0;
 }
 header {
-    height: 65em;
+    height: 100vh;
     max-width: 1440px;
-    background-position: center;
+    margin: 0 auto;
 }
 .headline {
     display: flex;
@@ -21,6 +21,7 @@ header {
     header {
         background-image: url('../obrazy/man-1.jpg');
         background-size: cover;
+        background-position: center;
     }
     .headline {
         margin-left: 5vw;
@@ -45,7 +46,9 @@ header {
 @media (min-width: 993px) and (max-width: 1170px) {
     header {
         background-image: url('../obrazy/man-2.jpg');
-        background-size: 100% 70% cover;
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        background-position: top;
     }
     .headline {
         height: inherit;
@@ -69,12 +72,25 @@ header {
 @media (min-width: 320px) and (max-width: 992px) {
     header {
         background-image: url('../obrazy/man-1.jpg');
-        background-size: 100% 50% cover;
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        background-position: top;
     }
     .headline {
-        display: none;
+        height: inherit;
+        justify-content: flex-end;
+        align-content: baseline;
+        align-items: center;
     }
-    section {
+    #par1 {
+    
+        font-size: 2.5em;
+    }
+    #par2 {
+        margin: 0;
+        font-size: 3em;
+    }
+/*    section {
         text-align: center;
     }
     #par3 {
@@ -84,5 +100,5 @@ header {
     #par4 {
         margin: 0;
         font-size: 4em;
-    }
+    }*/
 }
