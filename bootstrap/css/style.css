@@ -1,0 +1,25 @@
+
+.cont-example {
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.cont-fluid-example {
+    height: 30px;
+    margin-top: 100px;
+    background-color: cyan;
+}
+
+.item {
+    height: 400px;
+    background-color: darkkhaki;
+    border: 1px solid black;
+}
+
+.item:nth-child(2n) {
+    background-color: lightsalmon;
+}
+
+.carousel-inner {
+    height: 100px;
+}
