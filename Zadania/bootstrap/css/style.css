@@ -1,0 +1,26 @@
+
+h3 {
+    text-transform: uppercase;
+    border: 1px solid grey;
+    width: 140px;
+    height: auto;
+    border-radius: 5px;
+}
+.main {
+    width: 180px;
+    color: orange;
+    margin: 0 0 0 0;
+    padding: auto;
+}
+.iconBg {
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    background-color: lightgray;
+    margin: 20px 0 20px 0;
+}
+.par {
+    margin-left: 25px;
+}
+
